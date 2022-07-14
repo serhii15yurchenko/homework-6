@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #3399CC;
+    border: 25px solid #2B81AC;
+    font-size: 22px;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header .container {
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.header .container h1 {
+    font-size: 21px;
+}
+
+.container h1 .wi {
+    width: 35px;
+    height: 34px;
+    margin-left: 4px;
+}
+
+main .container {
+    padding-bottom: 119px;
+}
+
+main .container h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip:  rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.container ul {
+    display: block;
+    border: 2px solid #fff;
+    margin-bottom: 35px;
+    font-size: 0;
+}
+
+.container ul li {
+    display: inline-block;
+    border: 2px solid #fff;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container ul li:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container ul li h3 {
+    display: block;
+    text-align: center;
+    line-height: 26px;
+}
+
+.container ul li .temprature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    opacity: 0.7;
+}
+
+.container ul li span {
+    line-height: 26px;
+}
+
+.container ul li .wi {
+    width: 48px;
+    height: 61px;
+    margin-left: 10px;
+}
+
+.lisbon {
+    width: 583px;
+    height: 147px;
+    background-color: #3399CC;
+}
+
+.paris {
+    width: 291.5px;
+    height: 147px;
+    background-color: #33CCCC;
+}
+
+.belgrade {
+    width: 291.5px;
+    height: 147px;
+    background-color: #996699;
+}
+
+.venice {
+    width: 291.5px;
+    height: 147px;
+    background-color: #C24747;
+}
+
+.aviv {
+    width: 291.5px;
+    height: 147px;
+    background-color: #E2674A;
+}
+
+.cair {
+    width: 291.5px;
+    height: 147px;
+    background-color: #FFCC66;
+}
+
+.york {
+    width: 291.5px;
+    height: 147px;
+    background-color: #99CC99;
+}
+
+.delhi {
+    width: 291.5px;
+    height: 147px;
+    background-color: #669999;
+}
+
+.francisco {
+    width: 583px;
+    height: 147px;
+    background-color: #CC6699;
+}
+
+.tokyo {
+    width: 291.5px;
+    height: 147px;
+    background-color: #339966;
+}
+
+.sydney {
+    width: 1166px;
+    height: 147px;
+    background-color: #666699;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 19px;
+}
