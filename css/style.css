@@ -12,39 +12,38 @@ body {
     font-family: 'Lucida Sans Unicode';
 }
 
+.section {
+    padding-top: 35px;
+    padding-bottom: 94px;
+}
+
 .container {
     max-width: 1170px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.header .container {
-    padding-top: 60px;
-    padding-bottom: 35px;
-}
-
-.header .container h1 {
-    font-size: 21px;
-}
-
-.container h1 .wi {
-    width: 35px;
-    height: 34px;
-    margin-left: 4px;
-}
-
-main .container {
-    padding-bottom: 119px;
-}
-
-main .container h2 {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
     padding: 0;
     border: 0;
-    clip:  rect(0, 0, 0, 0);
+    clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+
+.container .title {
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.container .title .wi {
+    margin-left: 10px;
+    font-size: 27px;
 }
 
 .container ul {
@@ -58,27 +57,31 @@ main .container h2 {
     display: inline-block;
     border: 2px solid #fff;
     font-size: 22px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 10px;
+}
+
+.container ul:hover li {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
 }
 
 .container ul li:hover {
-    opacity: 0.7;
-    cursor: pointer;
+    opacity: 1;
 }
 
 .container ul li h3 {
     display: block;
     text-align: center;
     line-height: 26px;
+    margin-bottom: 19px;
 }
 
 .container ul li .temprature {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4px;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 .container ul li span {
@@ -86,74 +89,62 @@ main .container h2 {
 }
 
 .container ul li .wi {
-    width: 48px;
-    height: 61px;
-    margin-left: 10px;
+    margin-left: 9px;
+    font-size: 42px;
 }
 
-.lisbon {
-    width: 583px;
-    height: 147px;
+.blue {
+    width: 50%;
     background-color: #3399CC;
 }
 
-.paris {
-    width: 291.5px;
-    height: 147px;
+.turquoise {
+    width: 25%;
     background-color: #33CCCC;
 }
 
-.belgrade {
-    width: 291.5px;
-    height: 147px;
+.violet {
+    width: 25%;
     background-color: #996699;
 }
 
-.venice {
-    width: 291.5px;
-    height: 147px;
+.red {
+    width: 25%;
     background-color: #C24747;
 }
 
-.aviv {
-    width: 291.5px;
-    height: 147px;
+.orange {
+    width: 25%;
     background-color: #E2674A;
 }
 
-.cair {
-    width: 291.5px;
-    height: 147px;
+.yellow {
+    width: 25%;
     background-color: #FFCC66;
 }
 
-.york {
-    width: 291.5px;
-    height: 147px;
+.light-green {
+    width: 25%;
     background-color: #99CC99;
 }
 
-.delhi {
-    width: 291.5px;
-    height: 147px;
+.grey {
+    width: 25%;
     background-color: #669999;
 }
 
-.francisco {
-    width: 583px;
-    height: 147px;
+.pink {
+    width: 50%;
     background-color: #CC6699;
 }
 
-.tokyo {
-    width: 291.5px;
-    height: 147px;
+.green {
+    width: 25%;
     background-color: #339966;
 }
 
-.sydney {
-    width: 1166px;
-    height: 147px;
+.scampi {
+    width: 100%;
     background-color: #666699;
 }
 
